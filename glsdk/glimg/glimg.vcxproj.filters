@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="include">
+			<UniqueIdentifier>{9E454FB9-BC82-F44E-BBBE-AD16DBD16A4E}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="include\glimg">
+			<UniqueIdentifier>{810A25F8-3B59-1245-8E56-DAA4C10C4C36}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="source">
+			<UniqueIdentifier>{BA5D49C6-11E3-924B-AA44-859AB47B782D}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="include\glimg\DdsLoader.h">
+			<Filter>include\glimg</Filter>
+		</ClInclude>
+		<ClInclude Include="include\glimg\glimg.h">
+			<Filter>include\glimg</Filter>
+		</ClInclude>
+		<ClInclude Include="include\glimg\ImageCreator.h">
+			<Filter>include\glimg</Filter>
+		</ClInclude>
+		<ClInclude Include="include\glimg\ImageCreatorExceptions.h">
+			<Filter>include\glimg</Filter>
+		</ClInclude>
+		<ClInclude Include="include\glimg\ImageFormat.h">
+			<Filter>include\glimg</Filter>
+		</ClInclude>
+		<ClInclude Include="include\glimg\ImageSet.h">
+			<Filter>include\glimg</Filter>
+		</ClInclude>
+		<ClInclude Include="include\glimg\Loaders.h">
+			<Filter>include\glimg</Filter>
+		</ClInclude>
+		<ClInclude Include="include\glimg\StbLoader.h">
+			<Filter>include\glimg</Filter>
+		</ClInclude>
+		<ClInclude Include="include\glimg\TestLoader.h">
+			<Filter>include\glimg</Filter>
+		</ClInclude>
+		<ClInclude Include="include\glimg\TextureGenerator.h">
+			<Filter>include\glimg</Filter>
+		</ClInclude>
+		<ClInclude Include="include\glimg\TextureGeneratorExceptions.h">
+			<Filter>include\glimg</Filter>
+		</ClInclude>
+		<ClInclude Include="source\DdsLoaderInt.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="source\ImageSetImpl.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="source\stb_image.h">
+			<Filter>source</Filter>
+		</ClInclude>
+		<ClInclude Include="source\Util.h">
+			<Filter>source</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="source\DdsLoader.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="source\ImageCreator.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="source\ImageFormat.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="source\ImageSet.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="source\ImageSetImpl.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="source\StbLoader.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="source\TestLoader.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="source\TextureGenerator.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="source\Util.cpp">
+			<Filter>source</Filter>
+		</ClCompile>
+		<ClCompile Include="source\stb_image.c">
+			<Filter>source</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="source\OldDdsFmtConv.inc">
+			<Filter>source</Filter>
+		</None>
+	</ItemGroup>
+</Project>
